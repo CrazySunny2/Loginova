@@ -1,0 +1,26 @@
+.info{
+    position: relative;
+    margin: 20px;
+}
+.info__title{
+    font-size: 30px;
+    font-weight: bold;
+	font-family:Segoe Script;
+    margin-bottom: 15px;
+    margin-top: 10px;
+	color: #8B2252;
+}
+.info__link {
+    font-size: 30px;
+    color: #8B475D;
+	transition-property: transform, color;
+    transition-duration: 4s;
+ 
+}
+.info__link:hover{
+	transform: scale(1.5);
+	color:#00BFFF;
+}
+	
+
+

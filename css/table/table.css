@@ -1,0 +1,30 @@
+.table{
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+	border-padding:5px;
+	 transition-property: transform;
+    transition-duration: 4s;
+	 transform-origin: right top;
+	
+}
+.table:hover{
+	transform: skew(45deg, 0) scale(0,5); 
+}
+
+	
+.table__tr, .table__th{
+	padding: 10px;
+    background-color: #CDB38B;
+	
+}
+.table__tr{
+    padding: 5px 5px;
+	
+}
+.table__td{
+    padding: 5px 5px;
+}
+.table__td--italic{
+    font-style: italic;	
+}
